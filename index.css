@@ -1,0 +1,168 @@
+#nav, #feature, #footer {
+  background-color: e6e6fab;
+  padding: 10px;
+  margin: 10px;}
+  .column1, .column2, .column3 {
+  background-color: e6e6fa;
+  width: 300px;
+  height: 500PX;
+  font-variant: inherit;
+  font-size: x-large;
+  float: left;
+  margin: 10px;}
+  li {
+  display: flow-root;
+  padding: 5px;}
+
+
+
+
+ 
+
+
+@font-face {
+  font-family: Bassy;
+  src: url(fonts/Bassy.ttf) format('trueType');
+}
+
+@font-face {
+  font-family: Cascadia Code SemiBold;
+  src: url(fonts/CascadiaCode.ttf) format('trueType');
+}
+
+@font-face {
+  font-family: "TypoRound";
+  src: url(fonts/Typo_Round_Bold_Demo.otf) format('OpenType');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "28 Days Later";
+  src: url(fonts/28\ Days\ Later.ttf) format('TrueType');
+}
+
+@font-face {
+  font-family: "Heaters";
+  src: url(fonts/Heaters.otf) format('OpenType');
+}
+
+@font-face {
+  font-family: "LEMONMILK-medium";
+  src: url(fonts/LEMONMILK-Medium.otf) format('openType');
+}
+
+@font-face {
+  font-family: "LEMONMILK-RegularItalic";
+  src: url(fonts/LEMONMILK-RegularItalic.otf) format('OpenType');
+  
+}
+
+
+
+h1{
+  font-size: 5em;
+  font-family: "LEMONMILK-medium", sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+
+  font-size: 18;
+  font-family: 'Cascadia Code SemiBold', sans-serif;
+}
+
+
+#geography
+{
+  font-family: 'bessy', Times, serif;
+}
+/* Profile picture */
+#ProfilePic{
+  width: 80px;
+  height: 90px;
+  background-color: blue;
+  object-fit: comver;
+  object-position: left top;
+  border: 3px solid black;
+}
+
+body {font-family: 'Times New Roman', Times, serif;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid rgb(161, 95, 95);
+  background-color: rgb(161, 95, 95);
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: chartreuse;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(172, 40, 40);
+    border-top: none;
+  }
+           
+  /* If you want to fade in the tab content, add the following CSS: */
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+  }
+
+
